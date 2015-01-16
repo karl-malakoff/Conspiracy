@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Conspiracy.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{7C87A9DB-578E-404B-91AB-9430B1AC4F2F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Conspiracy.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ConspiracyEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{8FF603BA-7EBB-4255-9AFD-32DA25E65644}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Conspiracy">
+			<UniqueIdentifier>{2F2C0F2B-FEFA-457E-B6A7-D03C43497027}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Conspiracy\Conspiracy.Build.cs">
+			<Filter>Source\Conspiracy</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Conspiracy\Conspiracy.cpp">
+			<Filter>Source\Conspiracy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Conspiracy\Conspiracy.h">
+			<Filter>Source\Conspiracy</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Conspiracy\ConspiracyGameMode.cpp">
+			<Filter>Source\Conspiracy</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Conspiracy\ConspiracyGameMode.h">
+			<Filter>Source\Conspiracy</Filter>
+		</ClInclude >
+		<Filter Include="Source\Conspiracy\Resources">
+			<UniqueIdentifier>{ECD2D0C8-DBEB-4F3F-AFDE-EE8C21BF9B81}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Conspiracy\Resources\Windows">
+			<UniqueIdentifier>{B96846A8-2D83-43A7-B8CF-F509D9BCEDF6}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\Conspiracy\Resources\Windows\Conspiracy.rc">
+			<Filter>Source\Conspiracy\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
