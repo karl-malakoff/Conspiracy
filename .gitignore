@@ -5,7 +5,9 @@
 *.suo
 *.user
 *.sln.docstates
-
+[Ii]ntermediate/
+[Bb]inaries/
+[Ss]aved/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -194,8 +196,7 @@ FakesAssemblies/
 .LSOverride
 
 # Icon must end with two \r
-Icon
-
+Icon
 # Thumbnails
 ._*
 
