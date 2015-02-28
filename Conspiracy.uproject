@@ -1,13 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.6",
+	"EngineAssociation": "4.7",
 	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "Conspiracy",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Description": ""
 }
